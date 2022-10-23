@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".ui.huanbao.XuexiActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/b1"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/shuji"
+                android:src="@drawable/a1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="习总书记    重要讲话"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/lianzheng"
+                android:src="@drawable/a1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="理论导航"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/dongtai"
+                android:src="@drawable/a1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="法律法规"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/xuexi"
+                android:src="@drawable/a1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="党的历史"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/huodong"
+                android:src="@drawable/a1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="政策法规"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ed_bj">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/b1"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="160dp"
+                android:text="智慧党建播放终端可定时开关机。"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/i1"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:alpha="0"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ed_bj">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="160dp"
+                android:text="智慧党建播放终端可定时开关机。"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/b1"/>
+            <Button
+                android:id="@+id/i2"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:alpha="0"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ed_bj">
+
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/b1"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="160dp"
+                android:text="智慧党建播放终端可定时开关机。"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/i3"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:alpha="0"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ed_bj">
+
+            <ImageView
+                android:layout_marginLeft="5dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:src="@drawable/b1"/>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:layout_width="160dp"
+                android:text="智慧党建播放终端可定时开关机。"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/i4"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:alpha="0"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

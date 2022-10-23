@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="data"
+            type="com.example.myapplication.network.Toudi.Row" />
+    </data>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/gongsiname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"岗位名称:"+data.postName}'
+                tools:text="岗位"/>
+            <TextView
+                android:id="@+id/xizi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"薪资:"+data.money}'
+                tools:text="薪资"/>
+            <TextView
+                android:id="@+id/shijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{"投递时间:"+data.satrTime}'
+                tools:text="时间"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

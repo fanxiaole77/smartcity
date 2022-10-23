@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+    </data>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.works.fragment.AccountFragment"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/chaxun"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="查询个人简历"/>
+    <Button
+        android:id="@+id/xinzeng"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="新增个人简历"/>
+    <Button
+        android:id="@+id/bianji"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="编辑个人简历"/>
+
+</LinearLayout>
+</layout>

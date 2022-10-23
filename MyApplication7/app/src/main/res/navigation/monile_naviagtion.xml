@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myapplication.ui.hoem.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_function"
+            app:destination="@id/navigation_function" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_news_content"
+            app:destination="@id/navigation_news_content" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_function"
+        android:name="com.example.myapplication.ui.function.FunctionFragment"
+        android:label="@string/title_function"
+        tools:layout="@layout/fragment_function" />
+    <fragment
+        android:id="@+id/navigation_huanbao"
+        android:name="com.example.myapplication.ui.huanbao.HuanbaoFragment"
+        android:label="智慧环保"
+        tools:layout="@layout/fragment_huanbao" />
+    <fragment
+        android:id="@+id/navigation_news"
+        android:name="com.example.myapplication.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="com.example.myapplication.ui.mine.MineFragment"
+        android:label="@string/title_mine"
+        tools:layout="@layout/fragment_mine" >
+
+    </fragment>
+
+
+    <activity
+        android:id="@+id/navigation_news_content"
+        android:name="com.example.myapplication.ui.news.NewsContentActivity"
+
+        tools:layout="@layout/activity_news_content" />
+
+
+
+</navigation>

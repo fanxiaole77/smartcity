@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="com.example.myapplication.network.ServiceCreator"/>
+
+        <variable
+            name="data"
+            type="com.example.myapplication.ui.activity.house.LookHouseViewModel" />
+
+    </data>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="8dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.house.HousecontentActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        bindingImage="@{ServiceCreator.BASE_URL+data.house.pic}"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="房源名称"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"房屋面积："+data.house.areaSize+"㎡"}'
+        tools:text="建筑面积"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"房屋价格："+data.house.price}'
+        tools:text="房屋价格"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"房源类型："+data.house.houseType}'
+        tools:text="房源类型"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"联系电话："+data.house.tel}'
+        tools:text="联系电话"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@{"房源介绍："+data.house.description}'
+        tools:text="房屋介绍"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/Tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='@{"拨打电话："+data.house.tel}'/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回到主页"/>
+
+</LinearLayout>
+</layout>

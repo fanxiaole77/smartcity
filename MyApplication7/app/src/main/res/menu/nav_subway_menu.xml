@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_site"
+        android:icon="@drawable/ic_baseline_car_repair_24"
+        android:title="站点查询"/>
+    <item
+        android:id="@+id/navigation_query"
+        android:icon="@drawable/ic_baseline_car_repair_24"
+        android:title="线路查询"/>
+
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.LunchActivity">
+    <com.youth.banner.Banner
+        android:id="@+id/launchBanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvIpPortSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置IP端口"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="250sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnImmediately"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:elevation="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="立即体验"/>
+</RelativeLayout>

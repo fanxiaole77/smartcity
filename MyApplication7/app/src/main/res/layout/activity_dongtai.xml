@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.huanbao.DongtaiActivity"
+    android:padding="8dp">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:background="@drawable/ed_bj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            >
+            <TextView
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="新时代，新技术 主题党日活动应该怎么做"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="400dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/b1"
+                android:layout_height="200dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我们想做点什么？我们还能再多做点什么？”这一强烈意愿表达了YC和创显两个党支部共同的心声。经过数次的探讨交流，大家理清了工作思路，策划出精彩脚本，决定以直播的形式赋能党组织开启新时代智慧党建新模式，打造党建智慧新阵地。我们想做点什么？我们还能再多做点什么？”这一强烈意愿表达了YC和创显两个党支部共同的心声。经过数次的探讨交流，大家理清了工作思路，策划出精彩脚本，决定以直播的形式赋能党组织开启新时代智慧党建新模式，打造党建智慧新阵地。"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布人：梁吉乐"/>
+            <TextView
+                android:layout_marginLeft="180dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="观看数：123"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:hint="请你输入你的评论"
+            android:background="@drawable/ed_bj"/>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="梁吉乐"/>
+                <TextView
+                    android:layout_marginLeft="240dp"
+                    android:background="#9C27B0"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击查看评论详情"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="印象中的党建活动常以线下座谈会或参观红色教育基地的形式进行，一次党建活动需要前期进行人员组织和活动方案规划，但线下的活动仅限于党员的时间安排和到场人员数量，随着线上活动的普及，同样的组织者（主播+助理），同样的活动规划（直播脚本），运用线上直播的形式也可以同时让身在各处的人们同时参加党建活动。"
+                android:background="@drawable/ed_bj"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="梁吉乐"/>
+                <TextView
+                    android:layout_marginLeft="240dp"
+                    android:background="#9C27B0"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击查看评论详情"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="印象中的党建活动常以线下座谈会或参观红色教育基地的形式进行，一次党建活动需要前期进行人员组织和活动方案规划，但线下的活动仅限于党员的时间安排和到场人员数量，随着线上活动的普及，同样的组织者（主播+助理），同样的活动规划（直播脚本），运用线上直播的形式也可以同时让身在各处的人们同时参加党建活动。"
+                android:background="@drawable/ed_bj"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+</LinearLayout>

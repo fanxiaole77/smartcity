@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ui.huanbao.ShipinActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/ed_bj">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="印象中的党建活动常以线下座谈会或参观红色教育基地的形式进行，一次党建活动需要前期进行人员组织和活动方案规划，但线下的活动仅限于党员的时间安排和到场人员数量，随着线上活动的普及，同样的组织者（主播+助理），同样的活动规划（直播脚本），运用线上直播的形式也可以同时让身在各处的人们同时参加党建活动。"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020年10月23日 10:10"/>
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人情况"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="180dp"
+                android:background="#F49393"
+                android:text="选项卡一"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="180dp"
+                android:background="#F49393"
+                android:text="选项卡二"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="#D8F6B5"
+            android:text="第一张 党的历史"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:text="第一节 纪念与回忆"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#3F51B5"
+            android:text="第二节 纪念与回忆"/>
+    </LinearLayout>
+
+
+</LinearLayout>
